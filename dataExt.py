@@ -8,6 +8,8 @@ from urllib.parse import urljoin
 pdf_directory = 'PDFs'
 output_file = 'text.txt'
 
+# Extracting Text from all pdfs present in 'PDFs' folder
+
 def extract_text_from_pdf(pdf_path):
     reader = PdfReader(pdf_path)
     text = ''
@@ -24,6 +26,8 @@ with open(output_file, 'w') as output:
             output.write(f"--- Start of {pdf_file} ---\n")
             output.write(pdf_text)
             output.write(f"\n--- End of {pdf_file} ---\n\n")
+
+# Extracting text from all links present on a page and then parsing the text from html 
 
 def fetchURL(url):
     response = requests.get(url)
