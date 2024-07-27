@@ -1,5 +1,7 @@
 # LLM RAG ChatBot
 
+[Uploading Screencast from 2024-07-25 21-47-35.webm…]()
+
 This repository contains the implementation of a Sales Agent tuned ChatBot based on the GPT-2 model and Faiss (Facebook AI Similarity Search). Retrieval Augmented Generation used inorder to create prompts and context for the base LLM. 
 ## Table of Contents
 - Overview
